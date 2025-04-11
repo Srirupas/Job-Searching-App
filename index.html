@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Search App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Job Search Portal</h1>
+
+    <input type="text" id="searchInput" placeholder="Search by title or company..." />
+
+    <div class="filters">
+      <select id="locationFilter">
+        <option value="">All Locations</option>
+        <option value="Remote">Remote</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Bangalore">Bangalore</option>
+      </select>
+
+      <select id="typeFilter">
+        <option value="">All Types</option>
+        <option value="Full Time">Full Time</option>
+        <option value="Part Time">Part Time</option>
+        <option value="Internship">Internship</option>
+      </select>
+    </div>
+
+    <div id="jobsContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
